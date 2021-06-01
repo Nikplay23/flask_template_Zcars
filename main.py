@@ -2,8 +2,8 @@ from flask import Flask, render_template
 app = Flask('app')
 
 @app.route('/')
-def galvena():
-  return render_template("galvena.html")
+def sakums():
+  return render_template("sakums.html")
 
 @app.route('/kontakti')
 def kontakti():
@@ -11,11 +11,11 @@ def kontakti():
 
 @app.route('/parasta zona')
 def parasta_zona():
-  return render_template("parasta zona.html")
+  return render_template("parasta_zona.html")
 
 @app.route('/rezervēšana')
 def rezervesana():
-  return render_template("rezervēšana.html")
+  return render_template("rezervesana.html")
 
 @app.route('/vip')
 def vip():

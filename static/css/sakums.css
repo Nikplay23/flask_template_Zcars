@@ -1,4 +1,6 @@
 body {
+	margin: 0;
+    padding: 0;
 	background: #252222;
 }
 
@@ -87,7 +89,7 @@ div .pārredzamība:hover {
 
 .rectangle {
 	position: absolute;
-	top: 113px;
+	top: 105px;
 	width: 100%;
 	height: 45px;
 	padding: 35px, 0;
@@ -149,7 +151,7 @@ div .pārredzamība:hover {
 
 #gray_rectangle_2 {
 	position: absolute;
-	top: 158px;
+	top: 150px;
 	width: 103px;
 	height: 1280px;
 	background: #645959;
@@ -166,9 +168,9 @@ div .pārredzamība:hover {
 
 #image_car {
 	margin-top: 120px;
-	width: 1328px;
-	height: 384px;
-	top: 159px;
+	width: 1344px;
+	height: 404px;
+	top: 151px;
 }
 
 h2 {
@@ -185,7 +187,7 @@ h2 {
 
 #gray_rectangle_1 {
 	position: absolute;
-	top: 113px;
+	top: 105px;
 	width: 103px;
 	height: 1340px;
 	margin-left: 0;
@@ -212,7 +214,7 @@ h2 {
 
 #karte {
 	margin-top: 40px;
-	width: 1333px;
+	width: 1344px;
 	height: 467px;
 }
 
