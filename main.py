@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 app = Flask('app')
 
-@app.route('/sakums')
+@app.route('/')
 def sakums():
   return render_template("sakums.html")
 
