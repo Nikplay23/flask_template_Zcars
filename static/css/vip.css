@@ -23,7 +23,7 @@ h1{
 }
 
 #photo_logo{
-    position: absolute;
+  position: absolute;
 	width: 102px;
 	height: 102px;
 	left: 150px;
@@ -60,7 +60,7 @@ h1{
 
 #car_card {
 	top: 255px;
-	left: 250px;
+	margin-left: 150px;
 	width: 348px;
 	height: 193px;
 	position: fixed;
@@ -121,7 +121,7 @@ a{
 	
 	width: 348px;
 	height: 193px;
-	left: 500px;
+  left:500px;
 	top: 255px;
 	position: fixed;
 	background: #f8f5f5;

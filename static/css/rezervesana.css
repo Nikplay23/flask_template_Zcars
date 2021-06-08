@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+    padding: 0;
+	background: #252222;
+}
+
+.orange_rectangle_1 {
+	position: absolute;
+	width: 100%;
+	height: 105px;
+	display: flex;
+	background: #F77A06;
+}
+
+#logo {
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+}
+
+#nosaukums {
+	padding-top: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 56px;
+	color: #000000;
+	cursor: pointer;
+}
+
+.pārredzamība {
+	display: flex;
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 50px;
+	width: 435px;
+	justify-content: flex-start;
+}
+
+div .pārredzamība:hover {
+	opacity: 0.5;
+}
+
+.Labā_puse_1 {
+	margin-top: 39px;
+	margin-left: 100;
+	justify-content: right;
+	display: flex;
+	width: 100%;
+	height: 50px;
+}
+
+.meklēšanas_lodziņš {
+	width: 431px;
+	height: 37px;
+	top: 47px;
+	background: #FFFFFF;
+	border-radius: 30px;
+	border-color: #000000;
+	margin-top: 5px;
+	margin-right: 70px;
+}
+
+#meklēt {
+	position: absolute;
+	top: 51px;
+	width: 347px;
+	height: 21px;
+	background: #FFFFFF;
+	font-family: Nunito;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 26px;
+	color: #000000;
+	border-width: 0px;
+}
+
+#lupa {
+	width: 19px;
+	height: 18px;
+	padding-top: 9px;
+	padding-left: 14px;
+	padding-right: 13px;
+}
+
+.rectangle {
+	position: absolute;
+	top: 105px;
+	width: 100%;
+	height: 45px;
+	padding: 35px, 0;
+	margin: auto;
+	display: flex;
+	font-size: 20px;
+	background: #F1F1F1;
+	justify-content: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.rectangle ul li {
+	list-style: none;
+	margin: 0 20px;
+	position: relative;
+	display: inline-block;
+	bottom: 8px;
+}
+
+.rectangle ul li a {
+	text-decoration: none;
+	color: #F77A06;
+	line-height: 1;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	align-items: center;
+}
+
+.rectangle ul li::after {
+	background: #F77A06;
+	display: block;
+	content: "";
+	height: 3px;
+	width: 0%;
+	left: 50%;
+	position: absolute;
+	-webkit-transition: width .3s ease-in-out;
+	-moz--transition: width .3s ease-in-out;
+	transition: width .3s ease-in-out;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.rectangle ul li:hover::after {
+	width: 100%;
+}
