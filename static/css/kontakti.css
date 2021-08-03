@@ -91,11 +91,11 @@ div .pārredzamība:hover {
 	position: fixed;
 	top: 105px;
 	width: 100%;
-	height: 45px;
+	height: 36px;
 	padding: 35px, 0;
 	margin: auto;
 	display: flex;
-	font-size: 20px;
+	font-size: 18px;
 	background: #F1F1F1;
 	justify-content: center;
 	font-family: Roboto;
@@ -105,10 +105,10 @@ div .pārredzamība:hover {
 
 .rectangle ul li {
 	list-style: none;
-	margin: 0 20px;
+	margin: 0 25px;
 	position: relative;
 	display: inline-block;
-	bottom: 8px;
+	bottom: 11px;
 }
 
 .rectangle ul li a {
