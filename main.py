@@ -17,12 +17,16 @@ def parasta_zona():
 def rezervesana():
   return render_template("rezervesana.html")
 
-@app.route('/login')
+@app.route('/log_in')
 def login():
-  return render_template("login.html")
+  return render_template("log_in.html")
 
 @app.route('/vip')
 def vip():
   return render_template("vip.html")
+
+@app.route('/log_in')
+def log_in():
+  return render_template("log_in.html")
 
 app.run(host='0.0.0.0', port=8080)
