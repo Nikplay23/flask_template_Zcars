@@ -4,7 +4,7 @@ body {
 	background: #252222;
 }
 
-.orange_rectangle_1 {
+.top_rectangle {
 	position: fixed;
 	width: 100%;
 	height: 105px;
@@ -18,7 +18,7 @@ body {
 	cursor: pointer;
 }
 
-#nosaukums {
+#title {
 	padding-top: 10px;
 	padding-left: 10px;
 	text-decoration: none;
@@ -31,7 +31,7 @@ body {
 	cursor: pointer;
 }
 
-.pārredzamība {
+.transparency {
 	display: flex;
 	margin-right: 50px;
 	margin-top: 20px;
@@ -41,11 +41,11 @@ body {
 	justify-content: flex-start;
 }
 
-div .pārredzamība:hover {
+div .transparency:hover {
 	opacity: 0.5;
 }
 
-.Labā_puse_1 {
+.right_side_1 {
 	margin-top: 39px;
 	margin-left: 100;
 	justify-content: right;
@@ -54,7 +54,7 @@ div .pārredzamība:hover {
 	height: 50px;
 }
 
-.meklēšanas_lodziņš {
+.search_string {
 	width: 431px;
 	height: 37px;
 	top: 47px;
@@ -65,21 +65,22 @@ div .pārredzamība:hover {
 	margin-right: 70px;
 }
 
-#meklēt {
+#search {
 	position: absolute;
 	top: 51px;
 	width: 347px;
 	height: 21px;
 	background: #FFFFFF;
-	font-family: Nunito;
+	font-family: system-ui;
 	font-style: normal;
 	font-size: 15px;
+  font-weight: normal;
 	line-height: 26px;
 	color: #000000;
 	border-width: 0px;
 }
 
-#lupa {
+#loupe {
 	width: 19px;
 	height: 18px;
 	padding-top: 9px;
@@ -87,7 +88,7 @@ div .pārredzamība:hover {
 	padding-right: 13px;
 }
 
-.rectangle {
+.tabs {
 	position: fixed;
 	top: 105px;
 	width: 100%;
@@ -104,7 +105,7 @@ div .pārredzamība:hover {
   z-index: 1;
 }
 
-.rectangle ul li {
+.tabs ul li {
 	list-style: none;
 	margin: 0 25px;
 	position: relative;
@@ -112,7 +113,7 @@ div .pārredzamība:hover {
 	bottom: 11px;
 }
 
-.rectangle ul li a {
+.tabs ul li a {
 	text-decoration: none;
 	color: #F77A06;
 	line-height: 1;
@@ -122,7 +123,7 @@ div .pārredzamība:hover {
 	align-items: center;
 }
 
-.rectangle ul li::after {
+.tabs ul li::after {
 	background: #F77A06;
 	display: block;
 	content: "";
@@ -138,12 +139,12 @@ div .pārredzamība:hover {
 	transform: translateX(-50%);
 }
 
-.rectangle ul li:hover::after {
+.tabs ul li:hover::after {
 	width: 100%;
 }
 
 
-.Labā_puse_2 {
+.right_side_2 {
 	justify-content: flex-end;
 	padding: 16px;
 	display: flex;
@@ -160,7 +161,7 @@ div .pārredzamība:hover {
   z-index: 1;
 }
 
-.main {
+.main_content {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -179,9 +180,9 @@ h2 {
 	margin-top: 40px;
 	width: 75%;
 	top: 565px;
-	font-family: Nunito;
+	font-family: system-ui;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 20px;
 	line-height: 35px;
 	color: #FFFFFF;
@@ -215,7 +216,7 @@ h2 {
 	border: 3px dashed black;
 }
 
-#karte {
+#map {
 	margin-top: 40px;
 	width: 1344px;
 	height: 467px;
@@ -228,7 +229,7 @@ h2 {
   z-index: 1;
 }
 
-.orange_rectangle_2 {
+.bottom_rectangle {
 	display: block;
 	width: 100%;
 	height: 125px;
@@ -241,7 +242,7 @@ h2 {
   z-index: 2;
 }
 
-.informācija_par_mums {
+.information_about_us {
 	width: 100%;
 	height: 125px;
 	justify-content: center;
@@ -250,19 +251,19 @@ h2 {
 	align-items: center;
 }
 
-.kolonna_1 {
+.column_1 {
 	margin-top: 50px;
 	margin-right: 200px;
 }
 
-.kolonna_2 a {
+.column_2 a {
 	padding-top: 5px;
 	text-align: center;
 	display: block;
 	padding-bottom: 6px;
 }
 
-.kolonna_3 {
+.column_3 {
 	margin-top: 50px;
 	margin-left: 200px;
 	justify-content: flex-end;
