@@ -38,7 +38,7 @@
     {
 
     
-    echo "Jūs esat ielagojaties kā ".$_SESSION['login']."<br><a  href='http://tvpavlovsk.sk6.ru/'> Šī saite ir pieejama tikai reģistrētiem lietotājiem</a>";
+    echo "Jūs esat ielagojaties kā ".$_SESSION['login']."<br><a  href='http://localhost/home_page.html'> Šī saite ir pieejama tikai reģistrētiem lietotājiem</a>";
     }
     ?>
     </body>

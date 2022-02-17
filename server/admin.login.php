@@ -9,8 +9,7 @@
         $query->execute();
         $result = $query->fetch(PDO::FETCH_ASSOC);
         if (!$result) {
-                echo '<p class="success">Jūs veiksmīgi pieslēdzāties! </p>';
-                echo ('<form action="http://localhost/car_copy.html" method="GET"> <input type="submit" value="Administratora lapa"/> </form>');
+                echo '<p class="error">Ievadītā parole vai lietotājvārds ir nepareizs.</p>';
         } else {
                 $_SESSION['user_id'] = $result['id'];
                 echo '<p class="success">Jūs veiksmīgi pieslēdzāties! </p>';
