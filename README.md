@@ -1,7 +1,7 @@
 # Autonoma
 
 ## Projekta nosaukums: 
-ZCars
+ZCars Autonoma
 
 ## Grupa: 
 DP2-1
